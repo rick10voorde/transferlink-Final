@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+
+# Docker files
+**/Dockerfile
+docker-compose*.yml
+
+# IDE files
+.vscode/
+.idea/
+
+# Build directories
+dist/
+build/
+.out/
+.next/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Local development
+*.local
